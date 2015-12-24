@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+section article{
+	margin-top: 1% ;
+	height: 150px;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 1%;
+	background-color: green;
+}
+ main article, main header, main footer{
+	border: 1px  ;
+	text-align:left;
+}
+
+footer {
+	
+	float:left;
+}
+#left-footer{
+	margin-left:10%;
+	margin-right:2%;
+	width: 39%;
+	background-color: purple;
+	height:20px;
+}
+#right-footer{
+	width: 39%;
+	background-color:blue;
+	height:20px;
+}
+main header {
+	background-color:#006666;
+}
+header section {
+	height: 100px;
+	width: 100%;
+	
+}
+
+
+

@@ -1,0 +1,45 @@
+@CHARSET "UTF-8";
+
+
+ main article, main header, main footer, main aside{
+	border: 1p   ;
+	text-align:left;
+}
+
+
+main header {
+	height:100px;
+	margin-left:390px;
+	margin-right:50%;
+	background-color:#336666;
+	
+	width:600px;
+}
+ main section article{
+	margin-left:390px;
+	margin-right: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	background-color:#FF00CC;
+	width:150px;
+	height: 380px;
+	float:left;
+}
+main aside{	
+	width: 440px;
+	background-color:#00FF00;
+	margin-top:10px;
+	margin-bottom:10px;
+	height: 380px;
+	
+	float:left
+}
+
+footer{
+	height:100px;
+	margin-left:390px;
+	
+	clear:both;
+	width:600px;
+	background-color:#0066FF;
+}

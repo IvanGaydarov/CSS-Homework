@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+body{
+	background-image: url("roulette.png");
+	background-repeat: no-repeat;
+}
+.ball img{
+	width:10px;
+	height:10px;
+	/* border:1px solid black; */
+	/* position:absolute; */
+		
+}
+.ball{
+	height:12px;
+ 	width:300px;
+	/* position:relative; */
+	 position:absolute;
+	animation: rotation 2s linear 0s 3 normal none; 
+	/* text-align:center; */
+	margin-left: 75px;
+	margin-top:215px;
+}
+ @keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

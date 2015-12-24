@@ -1,0 +1,61 @@
+@CHARSET "UTF-8";
+
+body{
+	margin:0 auto;
+	/* border: 1px solid red; */
+	width:600px;
+	height:600px;
+}
+main header section{
+
+	width:100%; 
+	background-color:#3366CC;
+	display:block;  
+   color:#FFFFFF;
+   border-bottom:1px solid black;
+   font-weight:bold;
+   font-size:140%;
+ /*   background-color:#4483C7; */
+}
+#xef{
+ 	padding:0.4em 0.2em;	 
+}
+main article{
+	
+/* 	border:1px solid blue; */
+	display:block;
+   font-size:140%;
+   font-weight:bold;  
+   width:100%
+}
+main article h2{
+	 font-size:80%;
+	padding-top:0.7em;
+	margin-left:0.5em;
+}
+#description{
+	border: 1px solid #336600;
+	margin:1em;
+	display:block;	
+}
+#titleOfSection{
+	background-color:#336600;
+	color:white;
+	padding:0.5em;
+	font-weight:bold;
+}
+#contert{
+	background-color:#FFFFEE;
+	padding:0.5em;
+}
+#date{
+	background-color:#FFFFEE;
+	padding-left:0.5em ;
+	color:#A8A8A8 ;
+}
+#url{
+	background-color:#FFFFEE;
+	padding-left:0.5em ;
+	padding-top:0.2em;
+	color:#A8A8A8 ;
+}
